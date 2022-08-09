@@ -8,6 +8,11 @@ Feature: GO Rest Feature
     When updating the user
     Then the user is updated
 
+  @smoke
+  Scenario: Verify that a user resource can be updated
+    When updating the user
+    Then the user is updated
+
   @regression
   Scenario Outline: Verify that a user resource cannot be updated
     When updating the user with invalid input "<userName>" and "<password>"
