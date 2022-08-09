@@ -8,7 +8,7 @@ Feature: GO Rest Feature
     When updating the user
     Then the user is updated
 
-  @smoke
+  @regression
   Scenario: Verify that a user resource can be updated
     When updating the user
     Then the user is updated
