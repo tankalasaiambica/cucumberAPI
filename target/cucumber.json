@@ -1,0 +1,736 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Create a user",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9932000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a user",
+            "match": {
+              "location": "steps.MyStepdefs.aUser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-09T08:43:15.555Z",
+        "line": 7,
+        "name": "Verify that a user resource can be updated",
+        "description": "",
+        "id": "go-rest-feature;verify-that-a-user-resource-can-be-updated",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1295000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "updating the user",
+            "match": {
+              "location": "steps.MyStepdefs.updatingTheUser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 44000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user is updated",
+            "match": {
+              "location": "steps.MyStepdefs.theUserIsUpdated()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Create a user",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 809000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a user",
+            "match": {
+              "location": "steps.MyStepdefs.aUser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-09T08:43:26.893Z",
+        "line": 17,
+        "name": "Verify that a user resource cannot be updated",
+        "description": "",
+        "id": "go-rest-feature;verify-that-a-user-resource-cannot-be-updated;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "updating the user with invalid input \"test@gmail.com\" and \"test123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test@gmail.com",
+                  "offset": 38
+                },
+                {
+                  "val": "test123",
+                  "offset": 59
+                }
+              ],
+              "location": "steps.MyStepdefs.updatingTheUserWithInvalidInputAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user cannot be updated",
+            "match": {
+              "location": "steps.MyStepdefs.theUserCannotBeUpdated()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Create a user",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 677000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a user",
+            "match": {
+              "location": "steps.MyStepdefs.aUser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-09T08:43:27.730Z",
+        "line": 18,
+        "name": "Verify that a user resource cannot be updated",
+        "description": "",
+        "id": "go-rest-feature;verify-that-a-user-resource-cannot-be-updated;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "updating the user with invalid input \"test\" and \"Test123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test",
+                  "offset": 38
+                },
+                {
+                  "val": "Test123",
+                  "offset": 49
+                }
+              ],
+              "location": "steps.MyStepdefs.updatingTheUserWithInvalidInputAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user cannot be updated",
+            "match": {
+              "location": "steps.MyStepdefs.theUserCannotBeUpdated()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Create a user",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 679000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a user",
+            "match": {
+              "location": "steps.MyStepdefs.aUser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-09T08:43:28.433Z",
+        "line": 19,
+        "name": "Verify that a user resource cannot be updated",
+        "description": "",
+        "id": "go-rest-feature;verify-that-a-user-resource-cannot-be-updated;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "updating the user with invalid input \"gmail.com\" and \"test123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "gmail.com",
+                  "offset": 38
+                },
+                {
+                  "val": "test123",
+                  "offset": 54
+                }
+              ],
+              "location": "steps.MyStepdefs.updatingTheUserWithInvalidInputAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user cannot be updated",
+            "match": {
+              "location": "steps.MyStepdefs.theUserCannotBeUpdated()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Create a user",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 622000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a user",
+            "match": {
+              "location": "steps.MyStepdefs.aUser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-09T08:43:29.132Z",
+        "line": 20,
+        "name": "Verify that a user resource cannot be updated",
+        "description": "",
+        "id": "go-rest-feature;verify-that-a-user-resource-cannot-be-updated;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "updating the user with invalid input \"test@gmail.com\" and \"Test@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test@gmail.com",
+                  "offset": 38
+                },
+                {
+                  "val": "Test@123",
+                  "offset": 59
+                }
+              ],
+              "location": "steps.MyStepdefs.updatingTheUserWithInvalidInputAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user cannot be updated",
+            "match": {
+              "location": "steps.MyStepdefs.theUserCannotBeUpdated()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Create a user",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 717000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a user",
+            "match": {
+              "location": "steps.MyStepdefs.aUser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-09T08:43:29.772Z",
+        "line": 23,
+        "name": "Verify that a user deleted",
+        "description": "",
+        "id": "go-rest-feature;verify-that-a-user-deleted",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 379000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "a user to del",
+            "match": {
+              "location": "steps.MyStepdefs.aUserToDel()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 693000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "delete the user",
+            "match": {
+              "location": "steps.MyStepdefs.deleteTheUser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 429000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "the user is delete",
+            "match": {
+              "location": "steps.MyStepdefs.theUserIsDelete()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "GO Rest Feature",
+    "description": "",
+    "id": "go-rest-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/GoRest.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-08-09T08:43:32.004Z",
+        "line": 2,
+        "name": "Verify that a post resource can be updated",
+        "description": "",
+        "id": "go-rest-comment-feature;verify-that-a-post-resource-can-be-updated",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 425000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "a post",
+            "match": {
+              "location": "steps.MyStepPosts.aPost()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 349000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "updating the post",
+            "match": {
+              "location": "steps.MyStepPosts.updatingThePost()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 28000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the post is updated",
+            "match": {
+              "location": "steps.MyStepPosts.thePostIsUpdated()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-09T08:43:32.832Z",
+        "line": 7,
+        "name": "Verify that a post deleted",
+        "description": "",
+        "id": "go-rest-comment-feature;verify-that-a-post-deleted",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 399000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "a post to del",
+            "match": {
+              "location": "steps.MyStepPosts.aPostToDel()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 358000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "delete the post",
+            "match": {
+              "location": "steps.MyStepPosts.deleteThePost()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 646000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the post is delete",
+            "match": {
+              "location": "steps.MyStepPosts.thePostIsDelete()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Go Rest Comment Feature",
+    "description": "",
+    "id": "go-rest-comment-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/GoRestComment.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-08-09T08:43:34.254Z",
+        "line": 2,
+        "name": "Verify that a user resource can be updated",
+        "description": "",
+        "id": "go-rest-post-feature;verify-that-a-user-resource-can-be-updated",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 371000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "a user",
+            "match": {
+              "location": "steps.MyStepdefs.aUser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 358000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "updating the user",
+            "match": {
+              "location": "steps.MyStepdefs.updatingTheUser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is updated",
+            "match": {
+              "location": "steps.MyStepdefs.theUserIsUpdated()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-09T08:43:35.009Z",
+        "line": 7,
+        "name": "Verify that a user deleted",
+        "description": "",
+        "id": "go-rest-post-feature;verify-that-a-user-deleted",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 698000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "a user to del",
+            "match": {
+              "location": "steps.MyStepdefs.aUserToDel()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 323000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "delete the user",
+            "match": {
+              "location": "steps.MyStepdefs.deleteTheUser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 647000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user is delete",
+            "match": {
+              "location": "steps.MyStepdefs.theUserIsDelete()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "GO Rest post Feature",
+    "description": "",
+    "id": "go-rest-post-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/GoRestPost.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-08-09T08:43:36.689Z",
+        "line": 2,
+        "name": "Verify that a Todo resource can be updated",
+        "description": "",
+        "id": "go-rest-todo-feature;verify-that-a-todo-resource-can-be-updated",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 455000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "a Todo",
+            "match": {
+              "location": "steps.MyStepTodo.aTodo()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 535000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "updating the Todo",
+            "match": {
+              "location": "steps.MyStepTodo.updatingTheTodo()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the Todo is updated",
+            "match": {
+              "location": "steps.MyStepTodo.theTodoIsUpdated()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-09T08:43:37.705Z",
+        "line": 7,
+        "name": "Verify that a Todo deleted",
+        "description": "",
+        "id": "go-rest-todo-feature;verify-that-a-todo-deleted",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 361000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "a Todo to del",
+            "match": {
+              "location": "steps.MyStepTodo.aTodoToDel()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 695000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "delete the del",
+            "match": {
+              "location": "steps.MyStepTodo.deleteTheDel()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 750000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the Todo is delete",
+            "match": {
+              "location": "steps.MyStepTodo.theTodoIsDelete()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Go Rest Todo Feature",
+    "description": "",
+    "id": "go-rest-todo-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/GoRestTodo.feature",
+    "tags": []
+  }
+]

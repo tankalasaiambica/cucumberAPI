@@ -1,0 +1,17 @@
+{
+  "createRequest" :{
+  "name": "xyz1wew5",
+  "gender": "male",
+  "status": "active"
+},
+  "putRequest" :{
+    "name": "sai1wew5",
+    "gender": "male",
+    "status": "active"
+  },
+  "delRequest" :{
+    "name": "sai1wewdel",
+    "gender": "female",
+    "status": "active"
+  }
+}

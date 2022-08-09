@@ -1,0 +1,22 @@
+{
+  "createRequest" :{
+    "title": "REST API711",
+    "due_on": "2022-08-02T23:26:57.131+05:30",
+    "status": "completed"
+  },
+  "putRequest" :{
+    "title": "REST API711",
+    "due_on": "2022-08-02T23:26:57.131+05:30",
+    "status": "completed"
+  },
+  "delRequest" :{
+    "title": "REST API711",
+    "due_on": "2022-08-02T23:26:57.131+05:30",
+    "status": "completed"
+  },
+  "InvalidStatus" :{
+    "title": "REST API711",
+    "due_on": "2022-08-02T23:26:57.131+05:30",
+    "status": "Incompleted"
+  }
+}

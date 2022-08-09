@@ -1,0 +1,26 @@
+{
+"createRequest": {
+  "post_id": 100,
+  "name": "sai",
+  "email": "tester1659374627011@15ce.com",
+  "body": "is this most used in software testing nowadays"
+},
+"putRequest" :{
+  "post_id": 100,
+  "name": "sai",
+  "email": "tester1659374627011@15ce.com",
+  "body": "is this most used in software testing nowadays"
+},
+"delRequest" :{
+  "post_id": 100,
+  "name": "sai",
+  "email": "tester1659374627011@15ce.com",
+  "body": "is this most used in software testing nowadays"
+},
+  "InvalidEmail" :{
+    "post_id": 100,
+    "name": "sai",
+    "email": "tester",
+    "body": "is this most used in software testing nowadays"
+  }
+}
