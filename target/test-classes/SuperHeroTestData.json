@@ -1,0 +1,71 @@
+{
+  "createRequest":{
+    "name": "Tony",
+    "superName": "Iron Man",
+    "profession": "Teacher",
+    "age": 53,
+    "canFly": true
+  },
+  "createRequest123":{
+    "name": "Tony",
+    "superName": 23,
+    "profession": "Teacher",
+    "age": 53,
+    "canFly": true
+  },
+  "postInvalidName":{
+
+    "superName": "Iron Man",
+    "profession": "Teacher",
+    "age": 53,
+    "canFly": true
+  },
+  "postInvalidAge":{
+    "name": "Tony",
+    "superName": "Iron Man",
+    "profession": "Teacher",
+    "age": 0,
+    "canFly": true
+  },
+  "postInvalidSuperName":{
+    "name": "Tony",
+    "profession": "Teacher",
+    "age": 53,
+    "canFly": true
+  },
+  "postInvalidProfession":{
+    "name": "Tony",
+    "superName": "Iron Man",
+    "age": 53,
+    "canFly": true
+  },
+  "postInvalidcanFly":{
+    "name": "Tony",
+    "superName": "Iron Man",
+    "profession": "Teacher",
+    "age": 53
+  },
+  "putRequest":{
+    "name": "peter",
+    "superName": "spider man",
+    "profession": "student",
+    "age": 25,
+    "canFly": false
+  },
+  "updateData":{
+    "name": "peter avengers",
+    "superName": "spider man adv",
+    "profession": "photoshop",
+    "age": 28,
+    "canFly": true
+  },
+  "delRequest":{
+
+  "name": "peter",
+  "superName": "spider man2",
+  "profession": "reporter",
+  "age": 27,
+  "canFly": false
+}
+
+}

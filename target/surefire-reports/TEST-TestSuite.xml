@@ -1,0 +1,1237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="96.651" tests="18" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="18"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\training\API\sprint2_project\SuperHeroController\target\test-classes;D:\training\API\sprint2_project\SuperHeroController\target\classes;C:\Users\Sai\.m2\repository\io\rest-assured\rest-assured\5.1.1\rest-assured-5.1.1.jar;C:\Users\Sai\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\Sai\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\Sai\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Sai\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Sai\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Sai\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Sai\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Sai\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Sai\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Sai\.m2\repository\io\rest-assured\json-path\5.1.1\json-path-5.1.1.jar;C:\Users\Sai\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\Sai\.m2\repository\io\rest-assured\rest-assured-common\5.1.1\rest-assured-common-5.1.1.jar;C:\Users\Sai\.m2\repository\io\rest-assured\xml-path\5.1.1\xml-path-5.1.1.jar;C:\Users\Sai\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Sai\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\Sai\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Sai\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\Sai\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.2\jackson-core-2.13.2.jar;C:\Users\Sai\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.2.2\jackson-databind-2.13.2.2.jar;C:\Users\Sai\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.2\jackson-annotations-2.13.2.jar;C:\Users\Sai\.m2\repository\org\projectlombok\lombok\1.18.24\lombok-1.18.24.jar;C:\Users\Sai\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\Sai\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\Sai\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\Sai\.m2\repository\org\apache\maven\plugins\maven-surefire-plugin\3.0.0-M7\maven-surefire-plugin-3.0.0-M7.jar;C:\Users\Sai\.m2\repository\org\apache\maven\surefire\maven-surefire-common\3.0.0-M7\maven-surefire-common-3.0.0-M7.jar;C:\Users\Sai\.m2\repository\org\apache\maven\surefire\surefire-api\3.0.0-M7\surefire-api-3.0.0-M7.jar;C:\Users\Sai\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.0.0-M7\surefire-logger-api-3.0.0-M7.jar;C:\Users\Sai\.m2\repository\org\apache\maven\surefire\surefire-extensions-api\3.0.0-M7\surefire-extensions-api-3.0.0-M7.jar;C:\Users\Sai\.m2\repository\org\apache\maven\surefire\surefire-booter\3.0.0-M7\surefire-booter-3.0.0-M7.jar;C:\Users\Sai\.m2\repository\org\apache\maven\surefire\surefire-extensions-spi\3.0.0-M7\surefire-extensions-spi-3.0.0-M7.jar;C:\Users\Sai\.m2\repository\org\apache\maven\shared\maven-common-artifact-filters\3.1.1\maven-common-artifact-filters-3.1.1.jar;C:\Users\Sai\.m2\repository\org\apache\maven\maven-artifact\3.1.0\maven-artifact-3.1.0.jar;C:\Users\Sai\.m2\repository\org\codehaus\plexus\plexus-utils\3.0.10\plexus-utils-3.0.10.jar;C:\Users\Sai\.m2\repository\org\apache\maven\maven-core\3.1.0\maven-core-3.1.0.jar;C:\Users\Sai\.m2\repository\org\apache\maven\maven-settings\3.1.0\maven-settings-3.1.0.jar;C:\Users\Sai\.m2\repository\org\apache\maven\maven-settings-builder\3.1.0\maven-settings-builder-3.1.0.jar;C:\Users\Sai\.m2\repository\org\apache\maven\maven-repository-metadata\3.1.0\maven-repository-metadata-3.1.0.jar;C:\Users\Sai\.m2\repository\org\apache\maven\maven-model-builder\3.1.0\maven-model-builder-3.1.0.jar;C:\Users\Sai\.m2\repository\org\apache\maven\maven-aether-provider\3.1.0\maven-aether-provider-3.1.0.jar;C:\Users\Sai\.m2\repository\org\eclipse\aether\aether-spi\0.9.0.M2\aether-spi-0.9.0.M2.jar;C:\Users\Sai\.m2\repository\org\eclipse\aether\aether-impl\0.9.0.M2\aether-impl-0.9.0.M2.jar;C:\Users\Sai\.m2\repository\org\eclipse\aether\aether-api\0.9.0.M2\aether-api-0.9.0.M2.jar;C:\Users\Sai\.m2\repository\org\eclipse\aether\aether-util\0.9.0.M2\aether-util-0.9.0.M2.jar;C:\Users\Sai\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.plexus\0.0.0.M2a\org.eclipse.sisu.plexus-0.0.0.M2a.jar;C:\Users\Sai\.m2\repository\javax\enterprise\cdi-api\1.0\cdi-api-1.0.jar;C:\Users\Sai\.m2\repository\javax\annotation\jsr250-api\1.0\jsr250-api-1.0.jar;C:\Users\Sai\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Sai\.m2\repository\org\sonatype\sisu\sisu-guice\3.1.0\sisu-guice-3.1.0-no_aop.jar;C:\Users\Sai\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Sai\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.inject\0.0.0.M2a\org.eclipse.sisu.inject-0.0.0.M2a.jar;C:\Users\Sai\.m2\repository\asm\asm\3.3.1\asm-3.3.1.jar;C:\Users\Sai\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.16\plexus-interpolation-1.16.jar;C:\Users\Sai\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.4.2\plexus-classworlds-2.4.2.jar;C:\Users\Sai\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar;C:\Users\Sai\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.3\plexus-sec-dispatcher-1.3.jar;C:\Users\Sai\.m2\repository\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.jar;C:\Users\Sai\.m2\repository\org\apache\maven\maven-plugin-api\3.1.0\maven-plugin-api-3.1.0.jar;C:\Users\Sai\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Sai\.m2\repository\org\codehaus\plexus\plexus-java\1.1.1\plexus-java-1.1.1.jar;C:\Users\Sai\.m2\repository\org\ow2\asm\asm\9.2\asm-9.2.jar;C:\Users\Sai\.m2\repository\com\thoughtworks\qdox\qdox\2.0.1\qdox-2.0.1.jar;C:\Users\Sai\.m2\repository\org\apache\maven\surefire\surefire-shared-utils\3.0.0-M7\surefire-shared-utils-3.0.0-M7.jar;C:\Users\Sai\.m2\repository\io\rest-assured\json-schema-validator\5.1.1\json-schema-validator-5.1.1.jar;C:\Users\Sai\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\Sai\.m2\repository\com\google\guava\guava\28.2-android\guava-28.2-android.jar;C:\Users\Sai\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Sai\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Sai\.m2\repository\org\checkerframework\checker-compat-qual\2.5.5\checker-compat-qual-2.5.5.jar;C:\Users\Sai\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\Sai\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Sai\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\Sai\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\Sai\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\Sai\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\Sai\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\Sai\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\Sai\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\Sai\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\Sai\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\Sai\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\Sai\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Sai\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\Sai\.m2\repository\io\cucumber\cucumber-java\6.9.1\cucumber-java-6.9.1.jar;C:\Users\Sai\.m2\repository\io\cucumber\cucumber-core\6.9.1\cucumber-core-6.9.1.jar;C:\Users\Sai\.m2\repository\io\cucumber\cucumber-gherkin\6.9.1\cucumber-gherkin-6.9.1.jar;C:\Users\Sai\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.9.1\cucumber-gherkin-messages-6.9.1.jar;C:\Users\Sai\.m2\repository\io\cucumber\messages\13.2.1\messages-13.2.1.jar;C:\Users\Sai\.m2\repository\io\cucumber\tag-expressions\3.0.0\tag-expressions-3.0.0.jar;C:\Users\Sai\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\Sai\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\Sai\.m2\repository\io\cucumber\cucumber-plugin\6.9.1\cucumber-plugin-6.9.1.jar;C:\Users\Sai\.m2\repository\io\cucumber\docstring\6.9.1\docstring-6.9.1.jar;C:\Users\Sai\.m2\repository\io\cucumber\html-formatter\9.0.0\html-formatter-9.0.0.jar;C:\Users\Sai\.m2\repository\io\cucumber\create-meta\2.0.4\create-meta-2.0.4.jar;C:\Users\Sai\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Sai\.m2\repository\io\cucumber\cucumber-testng\6.9.1\cucumber-testng-6.9.1.jar;C:\Users\Sai\.m2\repository\org\springframework\security\spring-security-config\5.7.2\spring-security-config-5.7.2.jar;C:\Users\Sai\.m2\repository\org\springframework\security\spring-security-core\5.7.2\spring-security-core-5.7.2.jar;C:\Users\Sai\.m2\repository\org\springframework\security\spring-security-crypto\5.7.2\spring-security-crypto-5.7.2.jar;C:\Users\Sai\.m2\repository\org\springframework\spring-aop\5.3.21\spring-aop-5.3.21.jar;C:\Users\Sai\.m2\repository\org\springframework\spring-beans\5.3.21\spring-beans-5.3.21.jar;C:\Users\Sai\.m2\repository\org\springframework\spring-context\5.3.21\spring-context-5.3.21.jar;C:\Users\Sai\.m2\repository\org\springframework\spring-core\5.3.21\spring-core-5.3.21.jar;C:\Users\Sai\.m2\repository\org\springframework\spring-jcl\5.3.21\spring-jcl-5.3.21.jar;C:\Users\Sai\.m2\repository\org\springframework\security\spring-security-web\5.7.2\spring-security-web-5.7.2.jar;C:\Users\Sai\.m2\repository\org\springframework\spring-expression\5.3.21\spring-expression-5.3.21.jar;C:\Users\Sai\.m2\repository\org\springframework\spring-web\5.3.21\spring-web-5.3.21.jar;C:\Users\Sai\.m2\repository\org\springframework\spring-test\5.3.22\spring-test-5.3.22.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-18.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\Sai\AppData\Local\Temp\surefire4520690761010754975\surefirebooter-20220816102048255_3.jar C:\Users\Sai\AppData\Local\Temp\surefire4520690761010754975 2022-08-16T10-20-46_153-jvmRun1 surefire-20220816102048255_1tmp surefire_0-20220816102048255_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\training\API\sprint2_project\SuperHeroController\target\test-classes;D:\training\API\sprint2_project\SuperHeroController\target\classes;C:\Users\Sai\.m2\repository\io\rest-assured\rest-assured\5.1.1\rest-assured-5.1.1.jar;C:\Users\Sai\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\Sai\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\Sai\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Sai\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Sai\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Sai\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Sai\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Sai\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Sai\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Sai\.m2\repository\io\rest-assured\json-path\5.1.1\json-path-5.1.1.jar;C:\Users\Sai\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\Sai\.m2\repository\io\rest-assured\rest-assured-common\5.1.1\rest-assured-common-5.1.1.jar;C:\Users\Sai\.m2\repository\io\rest-assured\xml-path\5.1.1\xml-path-5.1.1.jar;C:\Users\Sai\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Sai\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\Sai\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Sai\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\Sai\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.2\jackson-core-2.13.2.jar;C:\Users\Sai\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.2.2\jackson-databind-2.13.2.2.jar;C:\Users\Sai\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.2\jackson-annotations-2.13.2.jar;C:\Users\Sai\.m2\repository\org\projectlombok\lombok\1.18.24\lombok-1.18.24.jar;C:\Users\Sai\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\Sai\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\Sai\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\Sai\.m2\repository\org\apache\maven\plugins\maven-surefire-plugin\3.0.0-M7\maven-surefire-plugin-3.0.0-M7.jar;C:\Users\Sai\.m2\repository\org\apache\maven\surefire\maven-surefire-common\3.0.0-M7\maven-surefire-common-3.0.0-M7.jar;C:\Users\Sai\.m2\repository\org\apache\maven\surefire\surefire-api\3.0.0-M7\surefire-api-3.0.0-M7.jar;C:\Users\Sai\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.0.0-M7\surefire-logger-api-3.0.0-M7.jar;C:\Users\Sai\.m2\repository\org\apache\maven\surefire\surefire-extensions-api\3.0.0-M7\surefire-extensions-api-3.0.0-M7.jar;C:\Users\Sai\.m2\repository\org\apache\maven\surefire\surefire-booter\3.0.0-M7\surefire-booter-3.0.0-M7.jar;C:\Users\Sai\.m2\repository\org\apache\maven\surefire\surefire-extensions-spi\3.0.0-M7\surefire-extensions-spi-3.0.0-M7.jar;C:\Users\Sai\.m2\repository\org\apache\maven\shared\maven-common-artifact-filters\3.1.1\maven-common-artifact-filters-3.1.1.jar;C:\Users\Sai\.m2\repository\org\apache\maven\maven-artifact\3.1.0\maven-artifact-3.1.0.jar;C:\Users\Sai\.m2\repository\org\codehaus\plexus\plexus-utils\3.0.10\plexus-utils-3.0.10.jar;C:\Users\Sai\.m2\repository\org\apache\maven\maven-core\3.1.0\maven-core-3.1.0.jar;C:\Users\Sai\.m2\repository\org\apache\maven\maven-settings\3.1.0\maven-settings-3.1.0.jar;C:\Users\Sai\.m2\repository\org\apache\maven\maven-settings-builder\3.1.0\maven-settings-builder-3.1.0.jar;C:\Users\Sai\.m2\repository\org\apache\maven\maven-repository-metadata\3.1.0\maven-repository-metadata-3.1.0.jar;C:\Users\Sai\.m2\repository\org\apache\maven\maven-model-builder\3.1.0\maven-model-builder-3.1.0.jar;C:\Users\Sai\.m2\repository\org\apache\maven\maven-aether-provider\3.1.0\maven-aether-provider-3.1.0.jar;C:\Users\Sai\.m2\repository\org\eclipse\aether\aether-spi\0.9.0.M2\aether-spi-0.9.0.M2.jar;C:\Users\Sai\.m2\repository\org\eclipse\aether\aether-impl\0.9.0.M2\aether-impl-0.9.0.M2.jar;C:\Users\Sai\.m2\repository\org\eclipse\aether\aether-api\0.9.0.M2\aether-api-0.9.0.M2.jar;C:\Users\Sai\.m2\repository\org\eclipse\aether\aether-util\0.9.0.M2\aether-util-0.9.0.M2.jar;C:\Users\Sai\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.plexus\0.0.0.M2a\org.eclipse.sisu.plexus-0.0.0.M2a.jar;C:\Users\Sai\.m2\repository\javax\enterprise\cdi-api\1.0\cdi-api-1.0.jar;C:\Users\Sai\.m2\repository\javax\annotation\jsr250-api\1.0\jsr250-api-1.0.jar;C:\Users\Sai\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Sai\.m2\repository\org\sonatype\sisu\sisu-guice\3.1.0\sisu-guice-3.1.0-no_aop.jar;C:\Users\Sai\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Sai\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.inject\0.0.0.M2a\org.eclipse.sisu.inject-0.0.0.M2a.jar;C:\Users\Sai\.m2\repository\asm\asm\3.3.1\asm-3.3.1.jar;C:\Users\Sai\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.16\plexus-interpolation-1.16.jar;C:\Users\Sai\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.4.2\plexus-classworlds-2.4.2.jar;C:\Users\Sai\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar;C:\Users\Sai\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.3\plexus-sec-dispatcher-1.3.jar;C:\Users\Sai\.m2\repository\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.jar;C:\Users\Sai\.m2\repository\org\apache\maven\maven-plugin-api\3.1.0\maven-plugin-api-3.1.0.jar;C:\Users\Sai\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Sai\.m2\repository\org\codehaus\plexus\plexus-java\1.1.1\plexus-java-1.1.1.jar;C:\Users\Sai\.m2\repository\org\ow2\asm\asm\9.2\asm-9.2.jar;C:\Users\Sai\.m2\repository\com\thoughtworks\qdox\qdox\2.0.1\qdox-2.0.1.jar;C:\Users\Sai\.m2\repository\org\apache\maven\surefire\surefire-shared-utils\3.0.0-M7\surefire-shared-utils-3.0.0-M7.jar;C:\Users\Sai\.m2\repository\io\rest-assured\json-schema-validator\5.1.1\json-schema-validator-5.1.1.jar;C:\Users\Sai\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\Sai\.m2\repository\com\google\guava\guava\28.2-android\guava-28.2-android.jar;C:\Users\Sai\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Sai\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Sai\.m2\repository\org\checkerframework\checker-compat-qual\2.5.5\checker-compat-qual-2.5.5.jar;C:\Users\Sai\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\Sai\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Sai\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\Sai\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\Sai\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\Sai\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\Sai\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\Sai\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\Sai\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\Sai\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\Sai\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\Sai\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\Sai\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Sai\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\Sai\.m2\repository\io\cucumber\cucumber-java\6.9.1\cucumber-java-6.9.1.jar;C:\Users\Sai\.m2\repository\io\cucumber\cucumber-core\6.9.1\cucumber-core-6.9.1.jar;C:\Users\Sai\.m2\repository\io\cucumber\cucumber-gherkin\6.9.1\cucumber-gherkin-6.9.1.jar;C:\Users\Sai\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.9.1\cucumber-gherkin-messages-6.9.1.jar;C:\Users\Sai\.m2\repository\io\cucumber\messages\13.2.1\messages-13.2.1.jar;C:\Users\Sai\.m2\repository\io\cucumber\tag-expressions\3.0.0\tag-expressions-3.0.0.jar;C:\Users\Sai\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\Sai\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\Sai\.m2\repository\io\cucumber\cucumber-plugin\6.9.1\cucumber-plugin-6.9.1.jar;C:\Users\Sai\.m2\repository\io\cucumber\docstring\6.9.1\docstring-6.9.1.jar;C:\Users\Sai\.m2\repository\io\cucumber\html-formatter\9.0.0\html-formatter-9.0.0.jar;C:\Users\Sai\.m2\repository\io\cucumber\create-meta\2.0.4\create-meta-2.0.4.jar;C:\Users\Sai\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Sai\.m2\repository\io\cucumber\cucumber-testng\6.9.1\cucumber-testng-6.9.1.jar;C:\Users\Sai\.m2\repository\org\springframework\security\spring-security-config\5.7.2\spring-security-config-5.7.2.jar;C:\Users\Sai\.m2\repository\org\springframework\security\spring-security-core\5.7.2\spring-security-core-5.7.2.jar;C:\Users\Sai\.m2\repository\org\springframework\security\spring-security-crypto\5.7.2\spring-security-crypto-5.7.2.jar;C:\Users\Sai\.m2\repository\org\springframework\spring-aop\5.3.21\spring-aop-5.3.21.jar;C:\Users\Sai\.m2\repository\org\springframework\spring-beans\5.3.21\spring-beans-5.3.21.jar;C:\Users\Sai\.m2\repository\org\springframework\spring-context\5.3.21\spring-context-5.3.21.jar;C:\Users\Sai\.m2\repository\org\springframework\spring-core\5.3.21\spring-core-5.3.21.jar;C:\Users\Sai\.m2\repository\org\springframework\spring-jcl\5.3.21\spring-jcl-5.3.21.jar;C:\Users\Sai\.m2\repository\org\springframework\security\spring-security-web\5.7.2\spring-security-web-5.7.2.jar;C:\Users\Sai\.m2\repository\org\springframework\spring-expression\5.3.21\spring-expression-5.3.21.jar;C:\Users\Sai\.m2\repository\org\springframework\spring-web\5.3.21\spring-web-5.3.21.jar;C:\Users\Sai\.m2\repository\org\springframework\spring-test\5.3.22\spring-test-5.3.22.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Sai"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-07-19"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-18.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\training\API\sprint2_project\SuperHeroController"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Sai\AppData\Local\Temp\surefire4520690761010754975\surefirebooter-20220816102048255_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="18.0.2+9-61"/>
+    <property name="user.name" value="Sai"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Sai\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Sai\AppData\Local\Temp\"/>
+    <property name="java.version" value="18.0.2"/>
+    <property name="user.dir" value="D:\training\API\sprint2_project\SuperHeroController"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-18.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Users\Sai\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Sai\AppData\Local\Programs\Python\Python310\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\Sai\AppData\Local\Programs\Python\Python310;C:\Program Files\R\R-4.2.0\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\apache-maven-3.8.6\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-18.0.2\bin;C:\Users\Sai\AppData\Local\Microsoft\WindowsApps;C:\Program Files\heroku\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2022.1\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.4\bin;;C:\Users\Sai\AppData\Roaming\npm;C:\Program Files\Java\jdk-18.0.2\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="18.0.2+9-61"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="62.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Verify list of superHero&quot;, &quot;Optional[Super Hero Feature]&quot;](1)" classname="runner.TestRunner" time="29.278">
+    <system-out><![CDATA[
+Scenario: Verify list of superHero &amp#27;[90m# src/test/java/features/SuperHero.feature:6&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user details&amp#27;[0m             &amp#27;[90m# steps.MyStepdefs.aUserDetails()&amp#27;[0m
+Request method:	GET
+Request URI:	http://localhost:8090/heroes
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Authorization=Basic dXNlcm5hbWU6cGFzc3dvcmQ=
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 
+Set-Cookie: JSESSIONID=C31563FFAAC2D51C85EB48DC06558075; Path=/; HttpOnly
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 16 Aug 2022 04:51:32 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+[
+    {
+        "id": 1,
+        "name": "Tony",
+        "superName": "Iron Man",
+        "profession": "Teacher",
+        "age": 53,
+        "canFly": true
+    },
+    {
+        "id": 2,
+        "name": "Tony",
+        "superName": "Iron Man",
+        "profession": "Teacher",
+        "age": 53,
+        "canFly": true
+    },
+    {
+        "id": 3,
+        "name": "Tony",
+        "superName": "Iron Man",
+        "profession": "Teacher",
+        "age": 53,
+        "canFly": false
+    },
+    {
+        "id": 4,
+        "name": "peter",
+        "superName": "spider man",
+        "profession": "student",
+        "age": 25,
+        "canFly": true
+    },
+    {
+        "id": 5,
+        "name": "peter",
+        "superName": "spider man",
+        "profession": "student",
+        "age": 25,
+        "canFly": true
+    },
+    {
+        "id": 6,
+        "name": "peter",
+        "superName": "spider man",
+        "profession": "student",
+        "age": 25,
+        "canFly": true
+    },
+    {
+        "id": 7,
+        "name": "peter",
+        "superName": "spider man",
+        "profession": "student",
+        "age": 25,
+        "canFly": true
+    },
+    {
+        "id": 8,
+        "name": "peter",
+        "superName": "spider man",
+        "profession": "student",
+        "age": 25,
+        "canFly": true
+    }
+]
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mbaseurl is given&amp#27;[0m            &amp#27;[90m# steps.MyStepdefs.baseurlIsGiven()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mdisplay list&amp#27;[0m                &amp#27;[90m# steps.MyStepdefs.displayList()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify displaying single superHero&quot;, &quot;Optional[Super Hero Feature]&quot;](2)" classname="runner.TestRunner" time="10.462">
+    <system-out><![CDATA[
+Scenario: Verify displaying single superHero &amp#27;[90m# src/test/java/features/SuperHero.feature:10&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user details&amp#27;[0m                       &amp#27;[90m# steps.MyStepdefs.aUserDetails()&amp#27;[0m
+Request method:	POST
+Request URI:	http://localhost:8090/heroes
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Authorization=Basic dXNlcm5hbWU6cGFzc3dvcmQ=
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Tony",
+    "superName": "Iron Man",
+    "profession": "Teacher",
+    "age": 53,
+    "canFly": true
+}
+HTTP/1.1 201 
+Set-Cookie: JSESSIONID=9C882001FBFEFCCC2D0625EF22172B24; Path=/; HttpOnly
+Location: http://localhost:8090/10
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 16 Aug 2022 04:51:36 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "id": 10,
+    "name": "Tony",
+    "superName": "Iron Man",
+    "profession": "Teacher",
+    "age": 53,
+    "canFly": true
+}
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mcreate superhero&amp#27;[0m                     &amp#27;[90m# steps.MyStepdefs.createSuperhero()&amp#27;[0m
+Request method:	GET
+Request URI:	http://localhost:8090/heroes/10
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Authorization=Basic dXNlcm5hbWU6cGFzc3dvcmQ=
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 
+Set-Cookie: JSESSIONID=28E90E987A218A02DFCA9063A9F59EA5; Path=/; HttpOnly
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 16 Aug 2022 04:51:43 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "id": 10,
+    "name": "Tony",
+    "superName": "Iron Man",
+    "profession": "Teacher",
+    "age": 53,
+    "canFly": true
+}
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mbaseurl is given with created Id&amp#27;[0m      &amp#27;[90m# steps.MyStepdefs.baseurlIsGivenWithCreatedId()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mdisplay single superHero&amp#27;[0m              &amp#27;[90m# steps.MyStepdefs.displaySingleSuperHero()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify invalid superHero id&quot;, &quot;Optional[Super Hero Feature]&quot;](3)" classname="runner.TestRunner" time="10.482">
+    <system-out><![CDATA[
+Scenario: Verify invalid superHero id &amp#27;[90m# src/test/java/features/SuperHero.feature:15&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user details&amp#27;[0m                &amp#27;[90m# steps.MyStepdefs.aUserDetails()&amp#27;[0m
+Request method:	GET
+Request URI:	http://localhost:8090/heroes/1000
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Authorization=Basic dXNlcm5hbWU6cGFzc3dvcmQ=
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 500 
+Set-Cookie: JSESSIONID=1450A53ADF846EDBBB712192FAF52154; Path=/; HttpOnly
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 16 Aug 2022 04:51:54 GMT
+Connection: close
+
+{
+    "timestamp": "2022-08-16T04:51:53.324+00:00",
+    "status": 500,
+    "error": "Internal Server Error",
+    "path": "/heroes/1000"
+}
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32msearching using invalid id&amp#27;[0m     &amp#27;[90m# steps.MyStepdefs.searchingUsingInvalidId()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mdisplay error&amp#27;[0m                  &amp#27;[90m# steps.MyStepdefs.displayError()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify invalid url&quot;, &quot;Optional[Super Hero Feature]&quot;](4)" classname="runner.TestRunner" time="4.268">
+    <system-out><![CDATA[
+Scenario: Verify invalid url       &amp#27;[90m# src/test/java/features/SuperHero.feature:19&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user details&amp#27;[0m             &amp#27;[90m# steps.MyStepdefs.aUserDetails()&amp#27;[0m
+Request method:	GET
+Request URI:	http://localhost:8090/heroess
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Authorization=Basic dXNlcm5hbWU6cGFzc3dvcmQ=
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 
+Set-Cookie: JSESSIONID=5F04DA4C2E25E05F566F7BC36FB553C4; Path=/; HttpOnly
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 16 Aug 2022 04:51:58 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "timestamp": "2022-08-16T04:51:58.617+00:00",
+    "status": 404,
+    "error": "Not Found",
+    "path": "/heroess"
+}
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32msearching using invalid url&amp#27;[0m &amp#27;[90m# steps.MyStepdefs.searchingUsingInvalidUrl()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mdisplay message&amp#27;[0m             &amp#27;[90m# steps.MyStepdefs.displayMessage()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify that a superHero is created&quot;, &quot;Optional[Super Hero Feature]&quot;](5)" classname="runner.TestRunner" time="1.338">
+    <system-out><![CDATA[
+Scenario: Verify that a superHero is created &amp#27;[90m# src/test/java/features/SuperHero.feature:24&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user details&amp#27;[0m                       &amp#27;[90m# steps.MyStepdefs.aUserDetails()&amp#27;[0m
+Request method:	POST
+Request URI:	http://localhost:8090/heroes
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Authorization=Basic dXNlcm5hbWU6cGFzc3dvcmQ=
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Tony",
+    "superName": "Iron Man",
+    "profession": "Teacher",
+    "age": 53,
+    "canFly": true
+}
+HTTP/1.1 201 
+Set-Cookie: JSESSIONID=411C7321DEA95FD9D96D98EC871BBAC0; Path=/; HttpOnly
+Location: http://localhost:8090/11
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 16 Aug 2022 04:51:59 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "id": 11,
+    "name": "Tony",
+    "superName": "Iron Man",
+    "profession": "Teacher",
+    "age": 53,
+    "canFly": true
+}
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mpost the superhero&amp#27;[0m                    &amp#27;[90m# steps.MyStepdefs.postTheSuperhero()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe super hero is created&amp#27;[0m             &amp#27;[90m# steps.MyStepdefs.theSuperHeroIsCreated()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify that a superHero is not created with empty name value&quot;, &quot;Optional[Super Hero Feature]&quot;](6)" classname="runner.TestRunner" time="0.625">
+    <system-out><![CDATA[
+Scenario: Verify that a superHero is not created with empty name value &amp#27;[90m# src/test/java/features/SuperHero.feature:28&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user details&amp#27;[0m                                                 &amp#27;[90m# steps.MyStepdefs.aUserDetails()&amp#27;[0m
+Request method:	POST
+Request URI:	http://localhost:8090/heroes
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Authorization=Basic dXNlcm5hbWU6cGFzc3dvcmQ=
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "superName": "Iron Man",
+    "profession": "Teacher",
+    "age": 53,
+    "canFly": true
+}
+HTTP/1.1 400 
+Set-Cookie: JSESSIONID=5AF348DA2182AF825B877C359ACC35EB; Path=/; HttpOnly
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 16 Aug 2022 04:51:59 GMT
+Connection: close
+
+{
+    "message": "Name is required"
+}
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mcreating a superhero with no name value&amp#27;[0m                         &amp#27;[90m# steps.MyStepdefs.creatingASuperheroWithNoNameValue()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe super hero is not created&amp#27;[0m                                   &amp#27;[90m# steps.MyStepdefs.theSuperHeroIsNotCreated()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify that a superHero is not created with empty super value&quot;, &quot;Optional[Super Hero Feature]&quot;](7)" classname="runner.TestRunner" time="0.468">
+    <system-out><![CDATA[
+Scenario: Verify that a superHero is not created with empty super value &amp#27;[90m# src/test/java/features/SuperHero.feature:33&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user details&amp#27;[0m                                                  &amp#27;[90m# steps.MyStepdefs.aUserDetails()&amp#27;[0m
+Request method:	POST
+Request URI:	http://localhost:8090/heroes
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Authorization=Basic dXNlcm5hbWU6cGFzc3dvcmQ=
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Tony",
+    "profession": "Teacher",
+    "age": 53,
+    "canFly": true
+}
+HTTP/1.1 400 
+Set-Cookie: JSESSIONID=A9528D496A587E4706817C8C76FB270A; Path=/; HttpOnly
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 16 Aug 2022 04:52:00 GMT
+Connection: close
+
+{
+    "message": "Super Name is required"
+}
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mcreating a superhero with no super name value&amp#27;[0m                    &amp#27;[90m# steps.MyStepdefs.creatingASuperheroWithNoSuperNameValue()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mcannot create without super name&amp#27;[0m                                 &amp#27;[90m# steps.MyStepdefs.cannotCreateWithoutSuperName()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify that a superHero is not created with empty profession value&quot;, &quot;Optional[Super Hero Feature]&quot;](8)" classname="runner.TestRunner" time="0.475">
+    <system-out><![CDATA[
+Scenario: Verify that a superHero is not created with empty profession value &amp#27;[90m# src/test/java/features/SuperHero.feature:38&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user details&amp#27;[0m                                                       &amp#27;[90m# steps.MyStepdefs.aUserDetails()&amp#27;[0m
+Request method:	POST
+Request URI:	http://localhost:8090/heroes
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Authorization=Basic dXNlcm5hbWU6cGFzc3dvcmQ=
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Tony",
+    "superName": "Iron Man",
+    "age": 53,
+    "canFly": true
+}
+HTTP/1.1 400 
+Set-Cookie: JSESSIONID=F1181803FF27A6FB43B5CA08FCE3F19F; Path=/; HttpOnly
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 16 Aug 2022 04:52:00 GMT
+Connection: close
+
+{
+    "message": "Profession is required"
+}
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mcreating a superhero with no profession value&amp#27;[0m                         &amp#27;[90m# steps.MyStepdefs.creatingASuperheroWithNoProfessionValue()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mcannot create without profession&amp#27;[0m                                      &amp#27;[90m# steps.MyStepdefs.cannotCreateWithoutProfession()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify that a superHero is not created with empty age value&quot;, &quot;Optional[Super Hero Feature]&quot;](9)" classname="runner.TestRunner" time="0.653">
+    <system-out><![CDATA[
+Scenario: Verify that a superHero is not created with empty age value &amp#27;[90m# src/test/java/features/SuperHero.feature:43&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user details&amp#27;[0m                                                &amp#27;[90m# steps.MyStepdefs.aUserDetails()&amp#27;[0m
+Request method:	POST
+Request URI:	http://localhost:8090/heroes
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Authorization=Basic dXNlcm5hbWU6cGFzc3dvcmQ=
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Tony",
+    "superName": "Iron Man",
+    "profession": "Teacher",
+    "canFly": true
+}
+HTTP/1.1 400 
+Set-Cookie: JSESSIONID=A1C3A1F0EEB7DD8436558167BEC135F8; Path=/; HttpOnly
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 16 Aug 2022 04:52:02 GMT
+Connection: close
+
+{
+    "message": "Age is required"
+}
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mcreating a superhero with no age value&amp#27;[0m                         &amp#27;[90m# steps.MyStepdefs.creatingASuperheroWithNoAgeValue()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mcannot create without age&amp#27;[0m                                      &amp#27;[90m# steps.MyStepdefs.cannotCreateWithoutAge()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify that a superHero is  created without canFly value&quot;, &quot;Optional[Super Hero Feature]&quot;](10)" classname="runner.TestRunner" time="3.504">
+    <system-out><![CDATA[
+Scenario: Verify that a superHero is  created without canFly value &amp#27;[90m# src/test/java/features/SuperHero.feature:47&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user details&amp#27;[0m                                             &amp#27;[90m# steps.MyStepdefs.aUserDetails()&amp#27;[0m
+Request method:	POST
+Request URI:	http://localhost:8090/heroes
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Authorization=Basic dXNlcm5hbWU6cGFzc3dvcmQ=
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Tony",
+    "superName": "Iron Man",
+    "profession": "Teacher",
+    "age": 53
+}
+HTTP/1.1 201 
+Set-Cookie: JSESSIONID=DECDF16C0A803DCE6660E844A29F43CF; Path=/; HttpOnly
+Location: http://localhost:8090/12
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 16 Aug 2022 04:52:03 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "id": 12,
+    "name": "Tony",
+    "superName": "Iron Man",
+    "profession": "Teacher",
+    "age": 53,
+    "canFly": false
+}
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mcreating a superhero with no canFly value&amp#27;[0m                   &amp#27;[90m# steps.MyStepdefs.creatingASuperheroWithNoCanFlyValue()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mcreate with default canFly value&amp#27;[0m                            &amp#27;[90m# steps.MyStepdefs.createWithDefaultCanFlyValue()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify that the user name is updated&quot;, &quot;Optional[Super Hero Feature]&quot;](11)" classname="runner.TestRunner" time="2.795">
+    <system-out><![CDATA[
+Scenario: Verify that the user name is updated &amp#27;[90m# src/test/java/features/SuperHero.feature:53&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user details&amp#27;[0m                         &amp#27;[90m# steps.MyStepdefs.aUserDetails()&amp#27;[0m
+Request method:	POST
+Request URI:	http://localhost:8090/heroes
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Authorization=Basic dXNlcm5hbWU6cGFzc3dvcmQ=
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "peter",
+    "superName": "spider man",
+    "profession": "student",
+    "age": 25,
+    "canFly": true
+}
+HTTP/1.1 201 
+Set-Cookie: JSESSIONID=42037BA5DE7905FCD6C00B5F3F738C67; Path=/; HttpOnly
+Location: http://localhost:8090/13
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 16 Aug 2022 04:52:06 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "id": 13,
+    "name": "peter",
+    "superName": "spider man",
+    "profession": "student",
+    "age": 25,
+    "canFly": true
+}
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mCreate a user&amp#27;[0m                          &amp#27;[90m# steps.MyStepdefs.createAUser()&amp#27;[0m
+Request method:	PUT
+Request URI:	http://localhost:8090/heroes/13
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Authorization=Basic dXNlcm5hbWU6cGFzc3dvcmQ=
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "peter",
+    "superName": "spider man",
+    "profession": "student",
+    "age": 25,
+    "canFly": true
+}
+HTTP/1.1 200 
+Set-Cookie: JSESSIONID=A585E6333AB33C66785B2751951A545C; Path=/; HttpOnly
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 16 Aug 2022 04:52:08 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "id": 13,
+    "name": "peter",
+    "superName": "spider man",
+    "profession": "student",
+    "age": 25,
+    "canFly": true
+}
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mupdating a user name&amp#27;[0m                    &amp#27;[90m# steps.MyStepdefs.updatingAUserName()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser name must be updated&amp#27;[0m               &amp#27;[90m# steps.MyStepdefs.userNameMustBeUpdated()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify that the user super name is updated&quot;, &quot;Optional[Super Hero Feature]&quot;](12)" classname="runner.TestRunner" time="2.89">
+    <system-out><![CDATA[
+Scenario: Verify that the user super name is updated &amp#27;[90m# src/test/java/features/SuperHero.feature:59&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user details&amp#27;[0m                               &amp#27;[90m# steps.MyStepdefs.aUserDetails()&amp#27;[0m
+Request method:	POST
+Request URI:	http://localhost:8090/heroes
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Authorization=Basic dXNlcm5hbWU6cGFzc3dvcmQ=
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "peter",
+    "superName": "spider man",
+    "profession": "student",
+    "age": 25,
+    "canFly": true
+}
+HTTP/1.1 201 
+Set-Cookie: JSESSIONID=386AC5FFE99426E8685448589BA9E525; Path=/; HttpOnly
+Location: http://localhost:8090/14
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 16 Aug 2022 04:52:08 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "id": 14,
+    "name": "peter",
+    "superName": "spider man",
+    "profession": "student",
+    "age": 25,
+    "canFly": true
+}
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mCreate a user&amp#27;[0m                                &amp#27;[90m# steps.MyStepdefs.createAUser()&amp#27;[0m
+Request method:	PUT
+Request URI:	http://localhost:8090/heroes/14
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Authorization=Basic dXNlcm5hbWU6cGFzc3dvcmQ=
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "peter",
+    "superName": "spider man",
+    "profession": "student",
+    "age": 25,
+    "canFly": true
+}
+HTTP/1.1 200 
+Set-Cookie: JSESSIONID=17A92E85A8F29EB69CA4013AED9C7A62; Path=/; HttpOnly
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 16 Aug 2022 04:52:10 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "id": 14,
+    "name": "peter",
+    "superName": "spider man",
+    "profession": "student",
+    "age": 25,
+    "canFly": true
+}
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mupdating super name of user&amp#27;[0m                   &amp#27;[90m# steps.MyStepdefs.updatingSuperNameOfUser()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser super name must be updated&amp#27;[0m               &amp#27;[90m# steps.MyStepdefs.userSuperNameMustBeUpdated()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify that the user profession is updated&quot;, &quot;Optional[Super Hero Feature]&quot;](13)" classname="runner.TestRunner" time="1.479">
+    <system-out><![CDATA[
+Scenario: Verify that the user profession is updated &amp#27;[90m# src/test/java/features/SuperHero.feature:64&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user details&amp#27;[0m                               &amp#27;[90m# steps.MyStepdefs.aUserDetails()&amp#27;[0m
+Request method:	POST
+Request URI:	http://localhost:8090/heroes
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Authorization=Basic dXNlcm5hbWU6cGFzc3dvcmQ=
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "peter",
+    "superName": "spider man",
+    "profession": "student",
+    "age": 25,
+    "canFly": true
+}
+HTTP/1.1 201 
+Set-Cookie: JSESSIONID=83EFCB7BFF5FFFD16021ED4CE6D23EFB; Path=/; HttpOnly
+Location: http://localhost:8090/15
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 16 Aug 2022 04:52:11 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "id": 15,
+    "name": "peter",
+    "superName": "spider man",
+    "profession": "student",
+    "age": 25,
+    "canFly": true
+}
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mCreate a user&amp#27;[0m                                &amp#27;[90m# steps.MyStepdefs.createAUser()&amp#27;[0m
+Request method:	PUT
+Request URI:	http://localhost:8090/heroes/15
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Authorization=Basic dXNlcm5hbWU6cGFzc3dvcmQ=
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "peter",
+    "superName": "spider man",
+    "profession": "student",
+    "age": 25,
+    "canFly": true
+}
+HTTP/1.1 200 
+Set-Cookie: JSESSIONID=5BD5F4F8D5A3EC1C57DC54A8CCA70DFA; Path=/; HttpOnly
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 16 Aug 2022 04:52:11 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "id": 15,
+    "name": "peter",
+    "superName": "spider man",
+    "profession": "student",
+    "age": 25,
+    "canFly": true
+}
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mupdating profession of user&amp#27;[0m                   &amp#27;[90m# steps.MyStepdefs.updatingProfessionOfUser()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser profession must be updated&amp#27;[0m               &amp#27;[90m# steps.MyStepdefs.userProfessionMustBeUpdated()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify that the user age is updated&quot;, &quot;Optional[Super Hero Feature]&quot;](14)" classname="runner.TestRunner" time="1.062">
+    <system-out><![CDATA[
+Scenario: Verify that the user age is updated &amp#27;[90m# src/test/java/features/SuperHero.feature:70&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user details&amp#27;[0m                        &amp#27;[90m# steps.MyStepdefs.aUserDetails()&amp#27;[0m
+Request method:	POST
+Request URI:	http://localhost:8090/heroes
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Authorization=Basic dXNlcm5hbWU6cGFzc3dvcmQ=
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "peter",
+    "superName": "spider man",
+    "profession": "student",
+    "age": 25,
+    "canFly": true
+}
+HTTP/1.1 201 
+Set-Cookie: JSESSIONID=1DB80AE6E48D56A152AF20918DD879CE; Path=/; HttpOnly
+Location: http://localhost:8090/16
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 16 Aug 2022 04:52:13 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "id": 16,
+    "name": "peter",
+    "superName": "spider man",
+    "profession": "student",
+    "age": 25,
+    "canFly": true
+}
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mCreate a user&amp#27;[0m                         &amp#27;[90m# steps.MyStepdefs.createAUser()&amp#27;[0m
+Request method:	PUT
+Request URI:	http://localhost:8090/heroes/16
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Authorization=Basic dXNlcm5hbWU6cGFzc3dvcmQ=
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "peter",
+    "superName": "spider man",
+    "profession": "student",
+    "age": 25,
+    "canFly": true
+}
+HTTP/1.1 200 
+Set-Cookie: JSESSIONID=E7DA7D75FD81C7B7FE26ACA3ABA8C632; Path=/; HttpOnly
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 16 Aug 2022 04:52:13 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "id": 16,
+    "name": "peter",
+    "superName": "spider man",
+    "profession": "student",
+    "age": 25,
+    "canFly": true
+}
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mupdating age of user&amp#27;[0m                   &amp#27;[90m# steps.MyStepdefs.updatingAgeOfUser()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser age must be updated&amp#27;[0m               &amp#27;[90m# steps.MyStepdefs.userAgeMustBeUpdated()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify that the user canFly status is updated&quot;, &quot;Optional[Super Hero Feature]&quot;](15)" classname="runner.TestRunner" time="1.155">
+    <system-out><![CDATA[
+Scenario: Verify that the user canFly status is updated &amp#27;[90m# src/test/java/features/SuperHero.feature:76&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user details&amp#27;[0m                                  &amp#27;[90m# steps.MyStepdefs.aUserDetails()&amp#27;[0m
+Request method:	POST
+Request URI:	http://localhost:8090/heroes
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Authorization=Basic dXNlcm5hbWU6cGFzc3dvcmQ=
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "peter",
+    "superName": "spider man",
+    "profession": "student",
+    "age": 25,
+    "canFly": true
+}
+HTTP/1.1 201 
+Set-Cookie: JSESSIONID=49265B10A7FB7C697273549A3A060807; Path=/; HttpOnly
+Location: http://localhost:8090/17
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 16 Aug 2022 04:52:14 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "id": 17,
+    "name": "peter",
+    "superName": "spider man",
+    "profession": "student",
+    "age": 25,
+    "canFly": true
+}
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mCreate a user&amp#27;[0m                                   &amp#27;[90m# steps.MyStepdefs.createAUser()&amp#27;[0m
+Request method:	PUT
+Request URI:	http://localhost:8090/heroes/17
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Authorization=Basic dXNlcm5hbWU6cGFzc3dvcmQ=
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "peter",
+    "superName": "spider man",
+    "profession": "student",
+    "age": 25,
+    "canFly": true
+}
+HTTP/1.1 200 
+Set-Cookie: JSESSIONID=13FD1BF58CDA5558487F1398F3F412A9; Path=/; HttpOnly
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 16 Aug 2022 04:52:14 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "id": 17,
+    "name": "peter",
+    "superName": "spider man",
+    "profession": "student",
+    "age": 25,
+    "canFly": true
+}
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mupdating canFly  status of user&amp#27;[0m                  &amp#27;[90m# steps.MyStepdefs.updatingCanFlyStatusOfUser()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser canFly status must be updated&amp#27;[0m               &amp#27;[90m# steps.MyStepdefs.userCanFlyStatusMustBeUpdated()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify that a invalid id cannot update&quot;, &quot;Optional[Super Hero Feature]&quot;](16)" classname="runner.TestRunner" time="0.632">
+    <system-out><![CDATA[
+Scenario: Verify that a invalid id cannot update &amp#27;[90m# src/test/java/features/SuperHero.feature:81&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user details&amp#27;[0m                           &amp#27;[90m# steps.MyStepdefs.aUserDetails()&amp#27;[0m
+Request method:	PUT
+Request URI:	http://localhost:8090/heroes/1000
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Authorization=Basic dXNlcm5hbWU6cGFzc3dvcmQ=
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "peter",
+    "superName": "spider man",
+    "profession": "student",
+    "age": 25,
+    "canFly": true
+}
+HTTP/1.1 500 
+Set-Cookie: JSESSIONID=108428557C248FE479493F08D46499EF; Path=/; HttpOnly
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 16 Aug 2022 04:52:15 GMT
+Connection: close
+
+{
+    "timestamp": "2022-08-16T04:52:15.268+00:00",
+    "status": 500,
+    "error": "Internal Server Error",
+    "path": "/heroes/1000"
+}
+errorInternal Server Error
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mupdate invalid id&amp#27;[0m                         &amp#27;[90m# steps.MyStepdefs.updateInvalidId()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mdisplay invalid error&amp#27;[0m                     &amp#27;[90m# steps.MyStepdefs.displayInvalidError()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify that the user is deleted&quot;, &quot;Optional[Super Hero Feature]&quot;](17)" classname="runner.TestRunner" time="0.842">
+    <system-out><![CDATA[
+Scenario: Verify that the user is deleted &amp#27;[90m# src/test/java/features/SuperHero.feature:86&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user details&amp#27;[0m                    &amp#27;[90m# steps.MyStepdefs.aUserDetails()&amp#27;[0m
+Request method:	POST
+Request URI:	http://localhost:8090/heroes
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Authorization=Basic dXNlcm5hbWU6cGFzc3dvcmQ=
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "peter",
+    "superName": "spider man2",
+    "profession": "reporter",
+    "age": 27
+}
+HTTP/1.1 201 
+Set-Cookie: JSESSIONID=98F04B02ECF8165F6060C7D82719309F; Path=/; HttpOnly
+Location: http://localhost:8090/18
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 16 Aug 2022 04:52:15 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "id": 18,
+    "name": "peter",
+    "superName": "spider man2",
+    "profession": "reporter",
+    "age": 27,
+    "canFly": false
+}
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mCreate a user to delete&amp#27;[0m           &amp#27;[90m# steps.MyStepdefs.createAUserToDelete()&amp#27;[0m
+Request method:	DELETE
+Request URI:	http://localhost:8090/heroes/18
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Authorization=Basic dXNlcm5hbWU6cGFzc3dvcmQ=
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 
+Set-Cookie: JSESSIONID=942645715EA68AEF4F1489C8CD25DE32; Path=/; HttpOnly
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Content-Length: 24
+Date: Tue, 16 Aug 2022 04:52:16 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+Deleted successfully...!
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mdelete the super hero&amp#27;[0m              &amp#27;[90m# steps.MyStepdefs.deleteTheSuperHero()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32msuper hero Deleted&amp#27;[0m                 &amp#27;[90m# steps.MyStepdefs.superHeroDeleted()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify that the invalid user is deleted&quot;, &quot;Optional[Super Hero Feature]&quot;](18)" classname="runner.TestRunner" time="0.343">
+    <system-out><![CDATA[
+Scenario: Verify that the invalid user is deleted &amp#27;[90m# src/test/java/features/SuperHero.feature:91&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user details&amp#27;[0m                            &amp#27;[90m# steps.MyStepdefs.aUserDetails()&amp#27;[0m
+Request method:	DELETE
+Request URI:	http://localhost:8090/heroes/1000
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Authorization=Basic dXNlcm5hbWU6cGFzc3dvcmQ=
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 
+Set-Cookie: JSESSIONID=004CD0C64286D2EBD4D7C01F15F20531; Path=/; HttpOnly
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Content-Length: 24
+Date: Tue, 16 Aug 2022 04:52:16 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+Deleted successfully...!
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mdeleted invalid super hero&amp#27;[0m                 &amp#27;[90m# steps.MyStepdefs.deletedInvalidSuperHero()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mdisplay deleted msg&amp#27;[0m                        &amp#27;[90m# steps.MyStepdefs.displayDeletedMsg()&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>

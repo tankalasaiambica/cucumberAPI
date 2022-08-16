@@ -1,0 +1,1091 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verify user details",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7978300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a user details",
+            "match": {
+              "location": "steps.MyStepdefs.aUserDetails()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-16T04:51:05.254Z",
+        "line": 6,
+        "name": "Verify list of superHero",
+        "description": "",
+        "id": "super-hero-feature;verify-list-of-superhero",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 28054306800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "baseurl is given",
+            "match": {
+              "location": "steps.MyStepdefs.baseurlIsGiven()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4987800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "display list",
+            "match": {
+              "location": "steps.MyStepdefs.displayList()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Verify user details",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 998200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a user details",
+            "match": {
+              "location": "steps.MyStepdefs.aUserDetails()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-16T04:51:33.599Z",
+        "line": 10,
+        "name": "Verify displaying single superHero",
+        "description": "",
+        "id": "super-hero-feature;verify-displaying-single-superhero",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8544743000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "create superhero",
+            "match": {
+              "location": "steps.MyStepdefs.createSuperhero()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1624860900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "baseurl is given with created Id",
+            "match": {
+              "location": "steps.MyStepdefs.baseurlIsGivenWithCreatedId()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 28924200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "display single superHero",
+            "match": {
+              "location": "steps.MyStepdefs.displaySingleSuperHero()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Verify user details",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 996800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a user details",
+            "match": {
+              "location": "steps.MyStepdefs.aUserDetails()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-16T04:51:43.864Z",
+        "line": 15,
+        "name": "Verify invalid superHero id",
+        "description": "",
+        "id": "super-hero-feature;verify-invalid-superhero-id",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10248291700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "searching using invalid id",
+            "match": {
+              "location": "steps.MyStepdefs.searchingUsingInvalidId()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 991100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "display error",
+            "match": {
+              "location": "steps.MyStepdefs.displayError()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Verify user details",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7981000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a user details",
+            "match": {
+              "location": "steps.MyStepdefs.aUserDetails()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-16T04:51:54.163Z",
+        "line": 19,
+        "name": "Verify invalid url",
+        "description": "",
+        "id": "super-hero-feature;verify-invalid-url",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4490086900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "searching using invalid url",
+            "match": {
+              "location": "steps.MyStepdefs.searchingUsingInvalidUrl()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 987400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "display message",
+            "match": {
+              "location": "steps.MyStepdefs.displayMessage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Verify user details",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 998900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a user details",
+            "match": {
+              "location": "steps.MyStepdefs.aUserDetails()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-16T04:51:58.745Z",
+        "line": 24,
+        "name": "Verify that a superHero is created",
+        "description": "",
+        "id": "super-hero-feature;verify-that-a-superhero-is-created",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1202198900,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "post the superhero",
+            "match": {
+              "location": "steps.MyStepdefs.postTheSuperhero()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "the super hero is created",
+            "match": {
+              "location": "steps.MyStepdefs.theSuperHeroIsCreated()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Verify user details",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1994700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a user details",
+            "match": {
+              "location": "steps.MyStepdefs.aUserDetails()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-16T04:51:59.980Z",
+        "line": 28,
+        "name": "Verify that a superHero is not created with empty name value",
+        "description": "",
+        "id": "super-hero-feature;verify-that-a-superhero-is-not-created-with-empty-name-value",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 570472700,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "creating a superhero with no name value",
+            "match": {
+              "location": "steps.MyStepdefs.creatingASuperheroWithNoNameValue()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1007800,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "the super hero is not created",
+            "match": {
+              "location": "steps.MyStepdefs.theSuperHeroIsNotCreated()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Verify user details",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a user details",
+            "match": {
+              "location": "steps.MyStepdefs.aUserDetails()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-16T04:52:00.592Z",
+        "line": 33,
+        "name": "Verify that a superHero is not created with empty super value",
+        "description": "",
+        "id": "super-hero-feature;verify-that-a-superhero-is-not-created-with-empty-super-value",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 479987900,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "creating a superhero with no super name value",
+            "match": {
+              "location": "steps.MyStepdefs.creatingASuperheroWithNoSuperNameValue()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997800,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "cannot create without super name",
+            "match": {
+              "location": "steps.MyStepdefs.cannotCreateWithoutSuperName()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Verify user details",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a user details",
+            "match": {
+              "location": "steps.MyStepdefs.aUserDetails()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-16T04:52:01.109Z",
+        "line": 38,
+        "name": "Verify that a superHero is not created with empty profession value",
+        "description": "",
+        "id": "super-hero-feature;verify-that-a-superhero-is-not-created-with-empty-profession-value",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 474759900,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "creating a superhero with no profession value",
+            "match": {
+              "location": "steps.MyStepdefs.creatingASuperheroWithNoProfessionValue()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997100,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "cannot create without profession",
+            "match": {
+              "location": "steps.MyStepdefs.cannotCreateWithoutProfession()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Verify user details",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a user details",
+            "match": {
+              "location": "steps.MyStepdefs.aUserDetails()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-16T04:52:01.609Z",
+        "line": 43,
+        "name": "Verify that a superHero is not created with empty age value",
+        "description": "",
+        "id": "super-hero-feature;verify-that-a-superhero-is-not-created-with-empty-age-value",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 580204600,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "creating a superhero with no age value",
+            "match": {
+              "location": "steps.MyStepdefs.creatingASuperheroWithNoAgeValue()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "cannot create without age",
+            "match": {
+              "location": "steps.MyStepdefs.cannotCreateWithoutAge()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Verify user details",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a user details",
+            "match": {
+              "location": "steps.MyStepdefs.aUserDetails()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-16T04:52:02.212Z",
+        "line": 47,
+        "name": "Verify that a superHero is  created without canFly value",
+        "description": "",
+        "id": "super-hero-feature;verify-that-a-superhero-is--created-without-canfly-value",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1349359500,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "creating a superhero with no canFly value",
+            "match": {
+              "location": "steps.MyStepdefs.creatingASuperheroWithNoCanFlyValue()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997500,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "create with default canFly value",
+            "match": {
+              "location": "steps.MyStepdefs.createWithDefaultCanFlyValue()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Verify user details",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 998200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a user details",
+            "match": {
+              "location": "steps.MyStepdefs.aUserDetails()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-16T04:52:03.619Z",
+        "line": 53,
+        "name": "Verify that the user name is updated",
+        "description": "",
+        "id": "super-hero-feature;verify-that-the-user-name-is-updated",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3084363700,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "Create a user",
+            "match": {
+              "location": "steps.MyStepdefs.createAUser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1692204400,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "updating a user name",
+            "match": {
+              "location": "steps.MyStepdefs.updatingAUserName()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 32911800,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "User name must be updated",
+            "match": {
+              "location": "steps.MyStepdefs.userNameMustBeUpdated()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Verify user details",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a user details",
+            "match": {
+              "location": "steps.MyStepdefs.aUserDetails()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-16T04:52:08.459Z",
+        "line": 59,
+        "name": "Verify that the user super name is updated",
+        "description": "",
+        "id": "super-hero-feature;verify-that-the-user-super-name-is-updated",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 512538500,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "Create a user",
+            "match": {
+              "location": "steps.MyStepdefs.createAUser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1585867100,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "updating super name of user",
+            "match": {
+              "location": "steps.MyStepdefs.updatingSuperNameOfUser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 29919500,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "User super name must be updated",
+            "match": {
+              "location": "steps.MyStepdefs.userSuperNameMustBeUpdated()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Verify user details",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1993800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a user details",
+            "match": {
+              "location": "steps.MyStepdefs.aUserDetails()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-16T04:52:10.617Z",
+        "line": 64,
+        "name": "Verify that the user profession is updated",
+        "description": "",
+        "id": "super-hero-feature;verify-that-the-user-profession-is-updated",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1056657900,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "Create a user",
+            "match": {
+              "location": "steps.MyStepdefs.createAUser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 476075800,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "updating profession of user",
+            "match": {
+              "location": "steps.MyStepdefs.updatingProfessionOfUser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 113066800,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "User profession must be updated",
+            "match": {
+              "location": "steps.MyStepdefs.userProfessionMustBeUpdated()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Verify user details",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a user details",
+            "match": {
+              "location": "steps.MyStepdefs.aUserDetails()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-16T04:52:12.292Z",
+        "line": 70,
+        "name": "Verify that the user age is updated",
+        "description": "",
+        "id": "super-hero-feature;verify-that-the-user-age-is-updated",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 834320900,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "Create a user",
+            "match": {
+              "location": "steps.MyStepdefs.createAUser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 628812900,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "updating age of user",
+            "match": {
+              "location": "steps.MyStepdefs.updatingAgeOfUser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 26941100,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "User age must be updated",
+            "match": {
+              "location": "steps.MyStepdefs.userAgeMustBeUpdated()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Verify user details",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a user details",
+            "match": {
+              "location": "steps.MyStepdefs.aUserDetails()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-16T04:52:13.798Z",
+        "line": 76,
+        "name": "Verify that the user canFly status is updated",
+        "description": "",
+        "id": "super-hero-feature;verify-that-the-user-canfly-status-is-updated",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 463873700,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "Create a user",
+            "match": {
+              "location": "steps.MyStepdefs.createAUser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 348686500,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "updating canFly  status of user",
+            "match": {
+              "location": "steps.MyStepdefs.updatingCanFlyStatusOfUser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24933600,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "User canFly status must be updated",
+            "match": {
+              "location": "steps.MyStepdefs.userCanFlyStatusMustBeUpdated()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Verify user details",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a user details",
+            "match": {
+              "location": "steps.MyStepdefs.aUserDetails()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-16T04:52:14.660Z",
+        "line": 81,
+        "name": "Verify that a invalid id cannot update",
+        "description": "",
+        "id": "super-hero-feature;verify-that-a-invalid-id-cannot-update",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 632308200,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "update invalid id",
+            "match": {
+              "location": "steps.MyStepdefs.updateInvalidId()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997900,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "display invalid error",
+            "match": {
+              "location": "steps.MyStepdefs.displayInvalidError()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Verify user details",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a user details",
+            "match": {
+              "location": "steps.MyStepdefs.aUserDetails()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-16T04:52:15.318Z",
+        "line": 86,
+        "name": "Verify that the user is deleted",
+        "description": "",
+        "id": "super-hero-feature;verify-that-the-user-is-deleted",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 659799700,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "Create a user to delete",
+            "match": {
+              "location": "steps.MyStepdefs.createAUserToDelete()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 629656500,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "delete the super hero",
+            "match": {
+              "location": "steps.MyStepdefs.deleteTheSuperHero()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 89,
+            "name": "super hero Deleted",
+            "match": {
+              "location": "steps.MyStepdefs.superHeroDeleted()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Verify user details",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a user details",
+            "match": {
+              "location": "steps.MyStepdefs.aUserDetails()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-16T04:52:16.622Z",
+        "line": 91,
+        "name": "Verify that the invalid user is deleted",
+        "description": "",
+        "id": "super-hero-feature;verify-that-the-invalid-user-is-deleted",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 285415100,
+              "status": "passed"
+            },
+            "line": 92,
+            "name": "deleted invalid super hero",
+            "match": {
+              "location": "steps.MyStepdefs.deletedInvalidSuperHero()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 93,
+            "name": "display deleted msg",
+            "match": {
+              "location": "steps.MyStepdefs.displayDeletedMsg()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Super Hero Feature",
+    "description": "",
+    "id": "super-hero-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/SuperHero.feature",
+    "tags": []
+  }
+]

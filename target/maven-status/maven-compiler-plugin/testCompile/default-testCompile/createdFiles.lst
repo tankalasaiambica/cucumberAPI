@@ -1,0 +1,9 @@
+models\SuperHeroErrorObject.class
+steps\MyStepdefs.class
+utils\SuperHeroJsonData.class
+steps\BaseTest.class
+utils\Endpoints.class
+utils\QAEnvProps.class
+utils\TestNGListener.class
+models\SuperHero.class
+runner\TestRunner.class
